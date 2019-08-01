@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Account-->
+        <scene sceneID="jmO-tx-pSh">
+            <objects>
+                <viewController id="lRf-xk-jHc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lab-vc-d9G">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="CGa-Yo-9EU"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Account" id="sK9-eH-gTs"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DrF-7X-OXu" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121" y="195"/>
+        </scene>
+        <!--Account-->
+        <scene sceneID="Zzr-lV-3Ow">
+            <objects>
+                <navigationController storyboardIdentifier="NavigationAccount" automaticallyAdjustsScrollViewInsets="NO" id="nyH-FL-yxt" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Account" image="circle-user-7" id="Jk6-HD-DXH"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gJU-FW-fkY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.1215686277" green="0.1294117719" blue="0.1411764771" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.16530143759999999" green="0.84890545689999997" blue="0.077401918880000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="lRf-xk-jHc" kind="relationship" relationship="rootViewController" id="3jz-eq-W8M"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gRS-Y0-tda" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="121" y="-595"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="circle-user-7" width="30" height="30"/>
+    </resources>
+</document>
